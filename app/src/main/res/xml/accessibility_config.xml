@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask|typeWindowStateChanged|typeWindowContentChanged|typeNotificationStateChanged"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagRequestFilterKeyEvents"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/app_accessibility_service_des"
+    android:notificationTimeout="100"
+    android:packageNames="com.tencent.mm"
+    android:canPerformGestures="true"
+    />
+
+<!--<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:accessibilityEventTypes="typeAllMask"-->
+<!--android:accessibilityFeedbackType="feedbackGeneric"-->
+<!--android:canRetrieveWindowContent="true"-->
+<!--android:description="辅助功能做个简短说明"-->
+<!--android:notificationTimeout="100" />-->

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAccessibilityService</string>
+    <string name="app_accessibility_service_name">开启我的辅助功能MyAccessibilityService</string>
+    <string name="app_accessibility_service_des">这是我的开启辅助功能，让你的手机更智能一点</string>
+</resources>
